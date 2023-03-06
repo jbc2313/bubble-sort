@@ -9,6 +9,7 @@ void swap(int *x, int *y) {
 }
 
 
+// n is the size of the array
 void bub(int *pntr, int n) {
     int i, z;
     for (i = 0; i < n - 1; i++) {
