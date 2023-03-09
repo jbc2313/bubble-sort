@@ -1,14 +1,12 @@
 #include <stdio.h>
 
-
+/* Bubbl Sort  */
 
 void swap(int *x, int *y) {
     int tmp = *x;
     *x = *y;
     *y = tmp;
 }
-
-
 // n is the size of the array
 void bub(int *pntr, int n) {
     int i, z;
