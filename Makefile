@@ -1,5 +1,5 @@
 program: main.c
-	gcc main.c -o bubble
+	gcc -g main.c -o bubble
 
 .PHONY: clean
 
