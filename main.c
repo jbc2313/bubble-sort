@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 /* Bubbl Sort  */
+// when debugging in neovim with dap, you have to compile with -g flag
+// gcc -g main.c -o bubble
+
 
 void swap(int *x, int *y) {
     int tmp = *x;
